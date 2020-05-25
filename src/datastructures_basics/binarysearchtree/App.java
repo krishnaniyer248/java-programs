@@ -8,7 +8,7 @@ public class App {
 
         bst.insert(53, "fifty three");
         bst.insert(28, "twenty eight");
-        bst.insert(63, "sixty three"); 
+        bst.insert(63, "sixty three");
         bst.insert(15, "fifteen");
         bst.insert(29, "twenty nine");
         bst.insert(57, "fifty seven");
