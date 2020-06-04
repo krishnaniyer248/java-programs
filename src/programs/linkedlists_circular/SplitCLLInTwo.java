@@ -58,7 +58,7 @@ public class SplitCLLInTwo {
         int half_val = ((count%2==0) ? count/2 : (count/2)+1);
         Node current = head;
         head1 = head;
-        for (int i=1; i<4; i++){
+        for (int i=1; i<half_val; i++){
             current = current.next;
         }
         head2 = current.next;
@@ -81,6 +81,8 @@ public class SplitCLLInTwo {
         list.insertFirst(15);
         list.insertFirst(87);
         list.insertFirst(47);
+        list.insertFirst(50);
+        list.insertFirst(2);
         list.displayList(first);
         list.splitList(first, list.getNodeCount(first));
         list.displayList(head1);
