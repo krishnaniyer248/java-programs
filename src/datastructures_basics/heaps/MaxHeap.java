@@ -1,11 +1,11 @@
 package datastructures_basics.heaps;
 
-public class Heap {
+public class MaxHeap {
 
     private int[] heap;
     private int size;
 
-    Heap(int capacity){
+    MaxHeap(int capacity){
         heap = new int[capacity];
         this.size = 0;
     }

@@ -3,7 +3,7 @@ package datastructures_basics.heaps;
 public class Main {
 
     public static void main(String[] args){
-        Heap hp = new Heap(10);
+        MaxHeap hp = new MaxHeap(10);
 
         hp.insert(25);
         hp.printHeap();
